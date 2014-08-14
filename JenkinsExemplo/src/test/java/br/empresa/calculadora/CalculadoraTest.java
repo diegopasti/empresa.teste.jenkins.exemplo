@@ -2,11 +2,11 @@ package br.empresa.calculadora;
 
 import junit.framework.TestCase;
 
-public class CalculadoraTeste extends TestCase {
+public class CalculadoraTest extends TestCase {
 	
 	private Calculadora calc;
 	
-	public CalculadoraTeste(){
+	public CalculadoraTest(){
 		calc = new Calculadora();
 	}
 
@@ -28,6 +28,10 @@ public class CalculadoraTeste extends TestCase {
 
 	public void testSubtrair() {
 		assertEquals(0.0, calc.subtrair(5.0, 5.0), 0.00001);
+	}
+	
+	public void testElevar(){
+		assertEquals(8, calc.elevar(2, 3), 0);
 	}
 
 }

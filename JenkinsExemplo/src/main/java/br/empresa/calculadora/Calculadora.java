@@ -11,13 +11,14 @@ public class Calculadora {
 	}
 	
 	public Double dividir(Double v1, Double v2){
-		if(v2!=0) return v1/v2;
-		else return null;
+		return v2!=0 ? v1/v2 : null;
 	}
 	
 	public Double subtrair(Double v1, Double v2){
 		return v1-v2;
 	}
 	
-
+	public Double elevar(int base, int expoente){
+		return Math.pow (base, expoente );
+	}
 }
