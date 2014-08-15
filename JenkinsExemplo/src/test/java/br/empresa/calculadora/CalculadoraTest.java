@@ -34,6 +34,10 @@ public class CalculadoraTest extends TestCase {
 		assertEquals(8, calc.elevar(2, 3), 0);
 	}
 	
+	public void testElevarZero(){
+		assertEquals(1, calc.elevar(2, 0), 0);
+	}
+	
 	public void testRaiz(){
 		assertEquals(2.0, calc.raiz(4.0), 0);
 	}
