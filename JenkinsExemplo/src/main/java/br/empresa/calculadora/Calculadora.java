@@ -21,4 +21,13 @@ public class Calculadora {
 	public Double elevar(int base, int expoente){
 		return Math.pow (base, expoente );
 	}
+	
+	public Double raiz(Double valor){
+		if(valor>0){
+			return Math.sqrt(valor);	
+		}
+		else{
+			return null;
+		}		
+	}
 }
