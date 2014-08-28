@@ -30,4 +30,9 @@ public class Calculadora {
 			return null;
 		}		
 	}
+	
+	public Double hipotenusa(int cateto1, int cateto2){
+		return raiz((elevar(cateto1,2)+elevar(cateto2,2)));		
+	}
+	
 }

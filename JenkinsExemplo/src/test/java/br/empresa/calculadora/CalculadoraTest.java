@@ -45,5 +45,9 @@ public class CalculadoraTest extends TestCase {
 	public void testRaizNegativa(){
 		assertNull(calc.raiz(-4.0));
 	}
+	
+	public void testHipotenusa(){
+		assertEquals(5.0, calc.hipotenusa(3,4));
+	}
 
 }
