@@ -49,5 +49,8 @@ public class CalculadoraTest extends TestCase {
 	public void testHipotenusa(){
 		assertEquals(5.0, calc.hipotenusa(3,4));
 	}
+	
+	public void testLogaritimo(){
+	}
 
 }

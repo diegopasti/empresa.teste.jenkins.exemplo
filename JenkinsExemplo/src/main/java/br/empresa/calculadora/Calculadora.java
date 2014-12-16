@@ -35,4 +35,8 @@ public class Calculadora {
 		return raiz((elevar(cateto1,2)+elevar(cateto2,2)));		
 	}
 	
+	public Double logaritimo(Double valor){
+		return Math.log(valor);
+	}
+	
 }
