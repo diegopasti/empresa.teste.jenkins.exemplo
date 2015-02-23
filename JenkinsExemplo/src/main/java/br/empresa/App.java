@@ -13,4 +13,18 @@ public class App {
     	System.out.println("Testando"+calc.toString());
     	System.out.println("Testando"+calc.toString());
     }
+    
+    public void Calcular(){
+    	int g = 0,k=0,i=0;
+    	
+    	while(g<100){
+    		while(k<100){
+    			while(i<100){
+    				i++;
+    			}
+    			k++;
+    		}
+    		g++;
+    	}    	
+    }
 }
